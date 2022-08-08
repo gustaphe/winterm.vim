@@ -1,0 +1,18 @@
+*winterm.txt*   Plugin to output cursors properly in Windows Terminal
+
+You should not set ANSI escape codes when using Windows, the fact that it
+almost works is entirely coincidental. Instead, use this plugin.
+
+                                                *winterm-settings*
+*g:winterm_dll* The path to the library to print a cursor number.
+
+Cursor shapes:
+| Variable | Default | Default appearance | Mode |
+| ---- | ---- | ---- | ---- |
+| *g:winterm_nCursor* | 2 | solid block | Normal |
+| *g:winterm_iCursor* | 5 | vertical bar | Insert |
+| *g:winterm_RCursor* | 4 | underline | Replace (continuous) |
+| *g:winterm_rCursor* | 4 | underline | replace (single character) |
+
+You can change these to your own liking, search online for "cursor shape ansi
+codes". The variable is just supposed to be a number.

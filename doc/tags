@@ -1,0 +1,7 @@
+g:winterm_RCursor	winterm.txt	/*g:winterm_RCursor*
+g:winterm_dll	winterm.txt	/*g:winterm_dll*
+g:winterm_iCursor	winterm.txt	/*g:winterm_iCursor*
+g:winterm_nCursor	winterm.txt	/*g:winterm_nCursor*
+g:winterm_rCursor	winterm.txt	/*g:winterm_rCursor*
+winterm-settings	winterm.txt	/*winterm-settings*
+winterm.txt	winterm.txt	/*winterm.txt*

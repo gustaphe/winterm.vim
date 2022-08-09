@@ -1,6 +1,6 @@
 #include "stdio.h"
 
-char* setCursorType(int type)
+__declspec(dllexport) char* setCursorType(int type)
 {
 	printf("[%d q", type);
 	return NULL;

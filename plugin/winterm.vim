@@ -7,7 +7,7 @@ if exists('g:loaded_winterm')
 endif
 let g:loaded_winterm = 1
 
-let g:winterm_dll = expand('<sfile>:h:h').'/bin/libcursor.dll'
+let g:winterm_dll = expand('<sfile>:h:h').'/bin/libcursor'
 
 let g:winterm_nCursor = 2
 let g:winterm_iCursor = 5

@@ -7,12 +7,22 @@ almost works is entirely coincidental. Instead, use this plugin.
 *g:winterm_dll* The path to the library to print a cursor number.
 
 Cursor shapes:
-| Variable | Default | Default appearance | Mode |
-| ---- | ---- | ---- | ---- |
-| *g:winterm_nCursor* | 2 | solid block | Normal |
-| *g:winterm_iCursor* | 5 | vertical bar | Insert |
-| *g:winterm_RCursor* | 4 | underline | Replace (continuous) |
-| *g:winterm_rCursor* | 4 | underline | replace (single character) |
+| Variable            | Default | Default appearance | Mode                       |
+| ------------------- | ------- | ------------------ | -------------------------- |
+| *g:winterm_nCursor* | 2       | solid block        | Normal                     |
+| *g:winterm_iCursor* | 5       | blinking bar       | Insert                     |
+| *g:winterm_RCursor* | 4       | underline          | Replace (continuous)       |
+| *g:winterm_rCursor* | 4       | underline          | replace (single character) |
+| *g:winterm_eCursor* | 0       | terminal default   | Exit to terminal           |
 
-You can change these to your own liking, search online for "cursor shape ansi
-codes". The variable is just supposed to be a number.
+You can set these variables to a number corresponding to the shape you want:
+
+| Number | Appearance         |
+| ------ | ------------------ |
+| 0      | terminal default   |
+| 1      | blinking block     |
+| 2      | solid block        |
+| 3      | blinking underline |
+| 4      | solid underline    |
+| 5      | blinking bar       |
+| 6      | solid bar          |
